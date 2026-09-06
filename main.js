@@ -214,3 +214,5 @@ document.getElementById('reseter').addEventListener('click', function () {
 setupSlots(true);
 updateScreenDisplays();
 
+
+
