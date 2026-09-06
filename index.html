@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encore Slot Machine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Encore Slot Machine</h1>
+    <div id="app">
+      
+      <!-- 💰 FIXED: Added the status panel layout for your money scores -->
+      <div class="status-panel">
+        <div>Wallet: $<span id="wallet">500</span></div>
+        <div>Current Bet: $<span id="current-bet">5</span></div>
+      </div>
+
+      <div class="Slot-Columns">
+        <div class="SlotD">
+          <div class="boxes"></div>
+        </div>
+
+        <div class="SlotD">
+          <div class="boxes"></div>
+        </div>
+
+        <div class="SlotD">
+          <div class="boxes"></div>
+        </div>
+      </div>
+
+      <!-- 🔘 FIXED: Changed duplicate 'Bet' IDs to match JavaScript expectations -->
+      <div class="buttons">
+        <button id="minBet">Min Bet</button>
+        <button id="spinner">Play</button>
+        <button id="maxBet">Max Bet</button>
+        <button id="reseter">Reset</button>
+      </div>
+    </div>
+
+    <!-- ⏳ FIXED: Kept at the bottom so elements load before script runs -->
+    <script src="main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Slot Machine -->
+
+<!-- what is a slot machine? -->
+ <!-- function of your imput = bet to an output = potenal winnings -->
+ <!-- a device with spinning reels that pay out prizes based on the combination of symbols that appear -->
+  <!-- pull the handle and wheels spin -->
+   <!-- how does it work? -->
+    <!-- imput a bet -->
+     <!-- what is a bet? money, risk, -->
+      <!-- process: random number generation -->
+       <!-- sets of values= reels -->
+        <!-- random selection shuffle -->
+         <!-- shows our results -->
+          <!-- how do you decide what a win is -->
+          <!-- win or lose -->
+           <!-- winnings depend on all 3 reels -->
+          <!-- decide the outcome -->
+           <!-- if all selected value match -->
+            <!-- output = money -->
+             <!-- postive or 0 -->
+
+              <!-- on a win get back imput + 50 -->
+               <!-- on a loss get back 0 -->
+                
+               <!-- rules
+                 imput = bet 
+                 postive imput
+                 min and max bet amounts
+                 needs to be equal to or smaller than your current wallet
+                 cant bet more than your wallet -->
+
+                 <!-- process rules
+                  reels neeed to randomize
+                  should display 5 options
+                  checks for all reel valus are the same
+                  if yes  -->
+                  <!-- multiplier the imput by the winning factor based on the selected options
+                   winning fator is the amount of money on top of your money -->
+                   <!-- if no they get nothing, lose, imput -->
+
+                   <!-- output
+                    amount returned from the process
+                    this is a loop back to the beginning -->
+
